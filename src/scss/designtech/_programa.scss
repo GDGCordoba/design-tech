@@ -1,0 +1,93 @@
+.dt-program-item {
+    margin-bottom: 20px !important;
+}
+
+.dt-program-hour {
+    font-size: 4em;
+    text-align: right;
+    padding-right: 20px;
+
+    @include respond( phones ) {
+        font-size: 1.8em;
+    }
+
+    @include respond( tablets ) {
+        font-size: 3em;
+    }
+}
+
+.dt-program-title {
+    font-size: 1.6em;
+    padding-top: 33px !important;
+
+    @include respond( phones ) {
+        font-size: 1.3em;
+        padding-top: 5px !important;
+    }
+
+    @include respond( tablets ) {
+        padding-top: 17px !important;
+    }
+}
+
+.dt-program-speaker {
+    margin-bottom: 15px;
+
+    @include respond( phones ) {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}
+
+.dt-program-speaker-info {
+    margin-left: 10px;
+    width: 100%;
+
+    @include respond( tablets ) {
+        margin-left: 25px;
+    }
+}
+
+.dt-program-speaker-image {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.dt-program-speaker-name {
+    font-size: 1.2em !important;
+    margin-bottom: 2px !important;
+    margin-top: 3px !important;
+}
+
+.dt-program-location-icon {
+    font-size: 2em;
+}
+
+.dt-program-location-text {
+    font-size: 1.2em;
+    margin-left: 1%;
+
+    @include respond( phones ) {
+        font-size: 1em;
+    }
+}
+
+.dt-program-break-container {
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.dt-program-break-title {
+    font-size: 4em;
+    margin-bottom: 10px;
+
+    @include respond( phones ) {
+        font-size: 1.3em;
+        padding-top: 6px !important;
+    }
+
+    @include respond( tablets ) {
+        font-size: 3em;
+    }
+}

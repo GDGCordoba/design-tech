@@ -1,0 +1,44 @@
+.dt-header {
+    height: 64px !important;
+}
+
+.dt-header nav {
+    height: 64px !important;
+}
+
+.dt-header .brand-logo {
+    @include respond( mobile ) {
+        line-height: 64px;
+    }
+}
+
+.dt-header .button-collapse {
+    @include respond( mobile ) {
+        height: 64px !important;
+        line-height: 64px !important;
+    }
+}
+
+.dt-header .button-collapse i {
+    @include respond( mobile ) {
+        height: 64px !important;
+        line-height: 64px !important;
+    }
+}
+
+.dt-nav {
+    @include respond( desktop ) {
+        padding: 0 50px;
+    }
+}
+
+.dt-logo {
+    height: 40px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+.dt-collapse i {
+    margin-left: 20px;
+    font-size: 2.5em !important;
+}

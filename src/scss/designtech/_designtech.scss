@@ -1,0 +1,47 @@
+.dt-info-row {
+    height: 600px;
+
+    @include respond( mobile ) {
+        height: auto;
+        margin: 0 10% 50px;
+    }
+}
+
+.dt-info-image-wrapper {
+    padding: 50px !important;
+    height: inherit;
+
+    @include respond( mobile ) {
+        padding: 50px 10px !important;
+    }
+}
+
+.dt-info-image-container {
+    width: 100%;
+    height: auto;
+}
+
+.dt-info-image {
+    border-radius: 100%;
+    height: 100%;
+    max-width: 400px;
+
+    @include respond( mobile ) {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+.dt-info-text {
+    padding: 0 10% 0 0 !important;
+    height: inherit;
+
+    @include respond( mobile ) {
+        padding: 0 !important;
+    }
+}
+
+.dt-info-text p {
+    font-size: 1.2em !important;
+    line-height: 1.5em;
+}
