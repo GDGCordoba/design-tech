@@ -3,7 +3,9 @@ $( document ).ready( () => {
 });
 
 $( window ).resize( () => {
-    initMap();
+    if( $( "#mobile_cheat" ).css( 'display' ) != 'none' ) {
+        initMap();
+    }
 });
 
 function initMap() {

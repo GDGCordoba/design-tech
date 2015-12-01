@@ -1,3 +1,5 @@
 $( document ).ready( () => {
-    new WOW().init();
+    new WOW({
+        mobile: false
+    }).init();
 });
