@@ -1,0 +1,33 @@
+.dt-sponsors-container {
+    padding-top: 60px;
+}
+
+.dt-sponsors-title {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.dt-sponsors-logo {
+    padding-top: 20px;
+}
+
+.dt-sponsors-logo-gdg {
+    width: 250px;
+    margin-bottom: 40px;
+
+    @include respond( mobile ) {
+        margin-bottom: 80px;
+    }
+}
+
+.dt-sponsors-logo-google {
+    width: 150px;
+}
+
+.dt-sponsors-logo-uco {
+    width: 150px;
+}
+
+.dt-sponsors-logo-cosfera {
+    width: 150px;
+}

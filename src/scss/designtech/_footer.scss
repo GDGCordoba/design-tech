@@ -1,0 +1,19 @@
+.dt-footer {
+    margin-top: 0 !important;
+}
+
+.dt-footer li {
+    margin-bottom: 5px;
+}
+
+.dt-footer .center-align {
+    @include respond( phones ) {
+        text-align: right;
+    }
+}
+
+.dt-footer .right-align {
+    @include respond( phones ) {
+        text-align: center;
+    }
+}

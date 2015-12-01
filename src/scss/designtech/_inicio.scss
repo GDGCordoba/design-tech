@@ -1,0 +1,73 @@
+.dt-full-screen {
+    height: calc( 100vh - 64px );
+    background-size: cover;
+
+    @include respond( desktop ) {
+        min-height: 700px;
+    }
+
+    @include respond( mobile ) {
+        min-height: 480px;
+    }
+}
+
+.dt-full-screen-card {
+    padding: 20px;
+}
+
+.dt-full-screen-card-container {
+    border: 2px solid #1e88e5;
+    padding: 50px;
+
+    @include respond( phones ) {
+        padding: 20px;
+    }
+}
+
+.dt-full-screen-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+
+    @include respond( mobile ) {
+        font-size: 2em;
+    }
+}
+
+.dt-full-screen-image {
+    background-size: cover;
+}
+
+.dt-full-screen-vertical-wrapper {
+    height: 100%;
+}
+
+.dt-full-screen-horizontal-wrapper {
+    width: 100%;
+}
+
+.dt-full-screen-cta {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 280px;
+}
+
+.dt-full-screen-shirt {
+    margin: 20px auto 0;
+    width: 100%;
+    max-width: 280px;
+}
+
+.dt-full-screen-shirt img {
+    display: inline-block;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.dt-full-screen-shirt span {
+    max-width: 200px;
+    display: inline-block;
+
+    @include respond( phones ) {
+        text-align: center;
+    }
+}
