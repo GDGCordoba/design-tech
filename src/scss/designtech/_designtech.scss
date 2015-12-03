@@ -18,17 +18,18 @@
 
 .dt-info-image-container {
     width: 100%;
-    height: auto;
+    height: 75%;
 }
 
 .dt-info-image {
-    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     height: 100%;
-    max-width: 400px;
 
     @include respond( mobile ) {
         width: 100%;
-        max-width: 300px;
+        height: 300px;
     }
 }
 

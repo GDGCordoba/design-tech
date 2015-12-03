@@ -6,6 +6,10 @@
     height: 64px !important;
 }
 
+.dt-header a {
+    cursor: pointer;
+}
+
 .dt-header .brand-logo {
     @include respond( mobile ) {
         line-height: 64px;
@@ -32,10 +36,17 @@
     }
 }
 
+.dt-logo-container {
+    height: inherit;
+}
+
 .dt-logo {
-    height: 40px;
-    vertical-align: middle;
-    margin-top: -3px;
+    height: 60%;
+    width: 183px;
+    margin-top: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .dt-collapse i {

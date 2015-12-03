@@ -55,15 +55,20 @@
     margin: 20px auto 0;
     width: 100%;
     max-width: 280px;
+    position: relative;
 }
 
-.dt-full-screen-shirt img {
+.dt-full-screen-shirt-icon {
     display: inline-block;
+    width: 30px;
     height: 30px;
     margin-right: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.dt-full-screen-shirt span {
+.dt-full-screen-shirt-text {
     max-width: 200px;
     display: inline-block;
 

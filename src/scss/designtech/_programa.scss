@@ -40,8 +40,11 @@
 }
 
 .dt-program-speaker-info {
-    margin-left: 10px;
     width: 100%;
+
+    @include respond( desktop ) {
+        margin-left: 10px;
+    }
 
     @include respond( tablets ) {
         margin-left: 25px;
