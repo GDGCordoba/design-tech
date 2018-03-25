@@ -1,175 +1,169 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="description" content="Design&amp;Tech es un evento pensado por la comunidad y para la comunidad de diseñadores y desarrolladores, orientado al User Experiencie y al Diseño">
-        <meta name="keywords" content="GDG Córdoba diseño design developers">
-        <title>GDG Design&amp;Tech Córdoba 2015</title>
+  <head>
+    <meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Design&amp;Tech es un evento pensado por la comunidad y para la comunidad de diseñadores y desarrolladores, orientado al User Experiencie y al Diseño">
+    <meta name="keywords" content="GDG Córdoba diseño design developers">
+    <title>GDG Design&amp;Tech Córdoba 2018</title>
 
-        <!-- Open graph -->
-        <meta property="og:title" content="GDG Design&amp;Tech Córdoba 2015">
-        <meta property="og:image" content="http://designtech.gdgcordoba.com/img/share/facebook.png">
-        <meta property="og:description" content="Design&amp;Tech es un evento pensado por la comunidad y para la comunidad de diseñadores y desarrolladores, orientado al User Experiencie y al Diseño">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="http://designtech.gdgcordoba.com">
-        <meta property="og:site_name" content="GDG Design&amp;Tech Córdoba 2015">
+    <!-- Open graph -->
+    <meta property="og:title" content="GDG Design&amp;Tech Córdoba 2018">
+    <meta property="og:image" content="http://designtech.gdgcordoba.com/img/share/facebook.png">
+    <meta property="og:description" content="Design&amp;Tech es un evento pensado por la comunidad y para la comunidad de diseñadores y desarrolladores, orientado al User Experiencie y al Diseño">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://designtech.gdgcordoba.com">
+    <meta property="og:site_name" content="GDG Design&amp;Tech Córdoba 2018">
 
-        <!-- Twitter cards -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="http://designtech.gdgcordoba.com">
-        <meta name="twitter:creator" content="GDGCordobaESP">
-        <meta name="twitter:via" content="GDGCordobaESP">
-        <meta name="twitter:title" content="GDG Design&amp;Tech Córdoba 2015">
-        <meta name="twitter:url" content="http://designtech.gdgcordoba.com">
-        <meta name="twitter:description" content="Design&amp;Tech es un evento pensado por la comunidad y para la comunidad de diseñadores y desarrolladores, orientado al User Experiencie y al Diseño">
-        <meta name="twitter:image" content="img/share/facebook.png">
+    <!-- Twitter cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="http://designtech.gdgcordoba.com">
+    <meta name="twitter:creator" content="GDGCordobaESP">
+    <meta name="twitter:via" content="GDGCordobaESP">
+    <meta name="twitter:title" content="GDG Design&amp;Tech Córdoba 2018">
+    <meta name="twitter:url" content="http://designtech.gdgcordoba.com">
+    <meta name="twitter:description" content="Design&amp;Tech es un evento pensado por la comunidad y para la comunidad de diseñadores y desarrolladores, orientado al User Experiencie y al Diseño">
+    <meta name="twitter:image" content="img/share/facebook.png">
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
-        <link rel="stylesheet" href="css/application.css">
-        <link rel="icon" href="img/favicons/favicon.ico">
-        <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
-        <link rel="icon" type="image/png" href="img/favicons/favicon-196x196.png">
-        <link rel="icon" type="image/png" href="img/favicons/favicon-160x160.png">
-        <link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png">
-        <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png">
-        <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png">
-    </head>
-    <body>
-        <div id="mobile_cheat"></div>
-        <header class="navbar-fixed dt-header">
-            <nav>
-                <div class="nav-wrapper dt-nav white">
-                    <div class="brand-logo dt-logo-container">
-                        <div class="dt-logo" style="background-image: url( 'img/logo.svg' );"></div>
-                    </div>
-                    <a href="#" data-activates="sidebar" class="button-collapse black-text dt-collapse">
-                        <i class="material-icons">menu</i>
-                    </a>
-                    <ul class="right hide-on-med-and-down">
-                        <li>
-                            <a class="grey-text text-darken-3" href="#" data-scroll="inicio">
-                                INICIO
-                            </a>
-                        </li>
-                        <li>
-                            <a class="grey-text text-darken-3" href="#" data-scroll="que-es">
-                                DESIGN&amp;TECH
-                            </a>
-                        </li>
-                        <li>
-                            <a class="grey-text text-darken-3" href="#" data-scroll="programa">
-                                PROGRAMA
-                            </a>
-                        </li>
-                        <li>
-                            <a class="grey-text text-darken-3" href="#" data-scroll="ponentes">
-                                PONENTES
-                            </a>
-                        </li>
-                        <li>
-                            <a class="grey-text text-darken-3" href="#" data-scroll="donde">
-                                LUGAR
-                            </a>
-                        </li>
-                    </ul>
-                    <ul class="side-nav" id="sidebar">
-                        <li>
-                            <a class="grey-text text-darken-3" href="#" data-scroll="inicio">
-                                INICIO
-                            </a>
-                        </li>
-                        <li>
-                            <a class="grey-text text-darken-3" href="#" data-scroll="que-es">
-                                DESIGN&amp;TECH
-                            </a>
-                        </li>
-                        <li>
-                            <a class="grey-text text-darken-3" href="#" data-scroll="programa">
-                                PROGRAMA
-                            </a>
-                        </li>
-                        <li>
-                            <a class="grey-text text-darken-3" href="#" data-scroll="ponentes">
-                                PONENTES
-                            </a>
-                        </li>
-                        <li>
-                            <a class="grey-text text-darken-3" href="#" data-scroll="donde">
-                                LUGAR
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <section class="dt-full-screen dt-full-screen-image white" style="background-image: url( './img/pattern.svg' )" data-section="inicio">
-                <div class="valign-wrapper dt-full-screen-vertical-wrapper">
-                    <div class="valign  dt-full-screen-horizontal-wrapper">
-                        <div class="container wow fadeInUp" data-wow-delay="1s">
-                            <div class="row">
-                                <div class="col s12">
-                                    <div class="card hoverable">
-                                        <div class="card-content dt-full-screen-card">
-                                            <div class="dt-full-screen-card-container">
-                                                <h1 class="dt-full-screen-title center-align grey-text text-darken-3">
-                                                    GDG Design&amp;Tech Córdoba 2015
-                                                </h1>
-                                                <h5 class="center-align grey-text text-darken-3">
-                                                    Viernes 11 de Diciembre
-                                                </h5>
-                                                <div class="center-align">
-                                                    <a href="http://designtechfest2015.eventbrite.es/" target="_blank" class="waves-effect waves-light blue darken-1 btn-large dt-full-screen-cta">
-                                                        ENTRADA GRATUITA
-                                                    </a>
-                                                    <div class="dt-full-screen-shirt">
-                                                        <span class="dt-full-screen-shirt-icon" style="background-image: url( 'img/shirt.svg' );"></span>
-                                                        <span class="grey-text text-darken-3 left-align dt-full-screen-shirt-text">
-                                                            Camiseta asegurada para las 80 primeras entradas
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+    <link rel="stylesheet" href="css/application.css">
+    <link rel="icon" href="img/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-196x196.png">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-160x160.png">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png">
+  </head>
+  <body>
+    <div id="mobile_cheat"></div>
+    <header class="navbar-fixed dt-header">
+      <nav>
+        <div class="nav-wrapper dt-nav white">
+          <div class="brand-logo dt-logo-container">
+            <div class="dt-logo" style="background-image: url( 'img/logo.svg' );"></div>
+          </div>
+          <a href="#" data-activates="sidebar" class="button-collapse black-text dt-collapse">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a class="grey-text text-darken-3" href="#" data-scroll="inicio">
+                INICIO
+              </a>
+            </li>
+            <li>
+              <a class="grey-text text-darken-3" href="#" data-scroll="que-es">
+                DESIGN&amp;TECH
+              </a>
+            </li>
+            <li>
+              <a class="grey-text text-darken-3" href="#" data-scroll="programa">
+                PROGRAMA
+              </a>
+            </li>
+            <li>
+              <a class="grey-text text-darken-3" href="#" data-scroll="ponentes">
+                PONENTES
+              </a>
+            </li>
+            <li>
+              <a class="grey-text text-darken-3" href="#" data-scroll="donde">
+                LUGAR
+              </a>
+            </li>
+          </ul>
+          <ul class="side-nav" id="sidebar">
+            <li>
+              <a class="grey-text text-darken-3" href="#" data-scroll="inicio">
+                INICIO
+              </a>
+            </li>
+            <li>
+              <a class="grey-text text-darken-3" href="#" data-scroll="que-es">
+                DESIGN&amp;TECH
+              </a>
+            </li>
+            <li>
+              <a class="grey-text text-darken-3" href="#" data-scroll="programa">
+                PROGRAMA
+              </a>
+            </li>
+            <li>
+              <a class="grey-text text-darken-3" href="#" data-scroll="ponentes">
+                PONENTES
+              </a>
+            </li>
+            <li>
+              <a class="grey-text text-darken-3" href="#" data-scroll="donde">
+                LUGAR
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="dt-full-screen dt-full-screen-image white" style="background-image: url( './img/pattern.svg' )" data-section="inicio">
+        <div class="valign-wrapper dt-full-screen-vertical-wrapper">
+          <div class="valign  dt-full-screen-horizontal-wrapper">
+            <div class="container wow fadeInUp" data-wow-delay="1s">
+              <div class="row">
+                <div class="col s12">
+                  <div class="card hoverable">
+                    <div class="card-content dt-full-screen-card">
+                      <div class="dt-full-screen-card-container">
+                        <h1 class="dt-full-screen-title center-align grey-text text-darken-3">
+                          GDG Design&amp;Tech Córdoba 2018
+                        </h1>
+                        <h5 class="center-align grey-text text-darken-3">
+                          Sábado 7 de Abril
+                        </h5>
+                        <div class="center-align">
+                          <a href="http://designtechfest2018.eventbrite.es/" target="_blank" class="waves-effect waves-light blue darken-1 btn-large dt-full-screen-cta">
+                            ENTRADA GRATUITA
+                          </a>
                         </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <section data-section="que-es">
-                <div class="row dt-row dt-info-row">
-                    <div class="col s12 l6 valign-wrapper dt-info-image-wrapper wow slideInLeft" data-wow-duration="0.5s" data-wow-offset="300">
-                        <div class="valign center-align dt-info-image-container">
-                            <div class="dt-info-image" style="background-image: url( 'img/illustration1.svg' )"></div>
-                        </div>
-                    </div>
-                    <div class="col s12 l6 valign-wrapper dt-info-text wow slideInRight" data-wow-duration="0.5s" data-wow-offset="300">
-                        <div class="valign">
-                            <h3 class="grey-text text-darken-3">Design&amp;Tech</h3>
-                            <p class="grey-text text-darken-3">
-                                Design&amp;Tech es un evento pensado por la comunidad y para la comunidad de diseñadores y desarrolladores.
-                            </p>
-                            <p class="grey-text text-darken-3">
-                                Orientado al User Experience y al Diseño, desde el Design&amp;Tech queremos acercar los dos elementos clave que forman cualquier Startup: <strong>Diseño y Desarrollo</strong>. Tanto si eres desarrollador como diseñador, te ayudará a entender mejor el UX y el prototipado desde el punto de vista del diseño, y te mostrará este desconocido mundo en el caso de que tu perfil sea desarrollador.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+      <section data-section="que-es">
+        <div class="row dt-row dt-info-row">
+          <div class="col s12 l6 valign-wrapper dt-info-image-wrapper wow slideInLeft" data-wow-duration="0.5s" data-wow-offset="300">
+            <div class="valign center-align dt-info-image-container">
+              <div class="dt-info-image" style="background-image: url( 'img/illustration1.svg' )"></div>
+            </div>
+          </div>
+          <div class="col s12 l6 valign-wrapper dt-info-text wow slideInRight" data-wow-duration="0.5s" data-wow-offset="300">
+            <div class="valign">
+              <h3 class="grey-text text-darken-3">Design&amp;Tech</h3>
+              <p class="grey-text text-darken-3">
+                Design&amp;Tech es un evento pensado por la comunidad y para la comunidad de diseñadores y desarrolladores.
+              </p>
+              <p class="grey-text text-darken-3">
+                Orientado al User Experience y al Diseño, desde el Design&amp;Tech queremos acercar los dos elementos clave que forman cualquier Startup: <strong>Diseño y Desarrollo</strong>. Tanto si eres desarrollador como diseñador, te ayudará a entender mejor el UX y el prototipado desde el punto de vista del diseño, y te mostrará este desconocido mundo en el caso de que tu perfil sea desarrollador.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
             <section class="dt-section grey lighten-5" data-section="programa">
                 <div class="blue darken-1">
@@ -835,7 +829,7 @@
                                             Ángel Sánchez
                                         </div>
                                         <p class="grey-text dt-card-description">
-                                            Product Designer en Social Bro
+                                            Product Designer en Audiense
                                         </p>
                                     </div>
                               </div>
@@ -848,10 +842,10 @@
                                           Ángel Sánchez
                                       </div>
                                       <p class="grey-text dt-card-description">
-                                          Product Designer en Social Bro
+                                          Product Designer en Audiense
                                       </p>
                                       <p class="grey-text text-darken-3 dt-card-bio">
-                                          "Le gusta definirse como Diseñador, a secas. Actualmente en el rol de Product Designer en <a href="https://www.socialbro.com" target="_blank">Social Bro</a>. Siempre ha trabajado en entornos ágiles de desarrollo y es entusiasta del Lean UX. Diseños bonitos no, funcionales, siempre y basados en datos, mejor."
+                                          "Le gusta definirse como Diseñador, a secas. Actualmente en el rol de Product Designer en <a href="https://www.audiense.com" target="_blank">Audiense</a>. Siempre ha trabajado en entornos ágiles de desarrollo y es entusiasta del Lean UX. Diseños bonitos no, funcionales, siempre y basados en datos, mejor."
                                       </p>
                                   </div>
                               </div>
@@ -946,7 +940,7 @@
             </div>
             <div class="footer-copyright amber accent-2">
                 <div class="container grey-text text-darken-3">
-                    <strong>© 2015 GDG Córdoba</strong>
+                    <strong>© 2018 GDG Córdoba</strong>
                 </div>
             </div>
         </footer>

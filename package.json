@@ -1,6 +1,9 @@
 {
   "name": "designtech-cordoba",
   "version": "1.0.0",
+  "scripts": {
+    "start": "gulp"
+  },
   "devDependencies": {
     "babel-preset-es2015": "^6.1.18",
     "del": "^2.1.0",
